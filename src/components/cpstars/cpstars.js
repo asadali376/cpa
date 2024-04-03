@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { cpstars } from '../../data/constants'
-// import { Wrapper } from '../../App';
+
 
 const Outcontainer = styled.div`
   display: flex;
@@ -56,23 +56,14 @@ const StudentMarks = styled.div`
   margin-top: 5px;
 `;
 
-// export const Wrapper = styled.div`
-//   background: rgb(37, 21, 84);
-//   background: linear-gradient(
-//     0deg,
-//     rgba(37, 21, 84, 1) 3%,
-//     rgba(255, 255, 255, 1) 100%
-//   );
-//   width: 100%;
-//   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
-// `;
+
 
 const Cpstars = () => {
-  // const [wrapperflag,setWrapperflag]= useState('cn');
+ 
   return (
 
     <>
-    {/* <Wrapper> */}
+    
     
       {cpstars.map((yearData, yearIndex) => (
         <div className={((yearIndex + 1) % 2 !== 0)? "primary_background":"secondary_background"} >
@@ -101,10 +92,8 @@ const Cpstars = () => {
       ))
       
       }
+   </>
    
-    {/* </Wrapper> */}
-    
-    </>
   );
 };
 

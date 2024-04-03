@@ -40,4 +40,27 @@ body{
     background: #626970;
   }
 
-  
+  .primary_background {
+    background: rgb(37, 21, 84);
+    background: linear-gradient(
+      0deg,
+      rgba(37, 21, 84, 1) 3%,
+     rgba(255, 255, 255, 1) 100%
+   );
+    width: 100%;
+    padding: 50px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+  }
+
+  .secondary_background{
+    background: rgb(25,149,211);
+    background: linear-gradient(
+      0deg,
+      rgba(25,149,211) 3%,
+     rgba(255, 255, 255, 1) 100%
+   );
+    width: 100%;
+    padding: 50px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+
+  }

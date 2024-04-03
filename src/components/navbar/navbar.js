@@ -19,6 +19,7 @@ export const Nav = styled.div`
     @media (max-width: 960px) {
         trastion: 0.8s all ease;
     }
+  
 `;
 export const NavbarContainer = styled.div`
   display: flex;
@@ -51,6 +52,10 @@ export const Span = styled.div`
     @media (max-width: 640px) {
       font-size: 16px;
       padding-left: 30px;
+  }
+    @media (max-width: 400px) {
+      font-size: 13px;
+      padding-left: 20px;
   }
 
 `;
@@ -117,7 +122,7 @@ export const MobileMenu = styled.div`
     z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
 
 `
-export  const MobileLink = styled.a`
+export  const MobileLink = styled(Link)`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;
@@ -220,22 +225,27 @@ const Navbar = () => {
             {
             isOpen &&
             <MobileMenu isOpen={isOpen}>
-                <MobileLink href="#about" onClick={() => {
+                <MobileLink to="/components/home/home"onClick={() => {
                 setIsOpen(!isOpen)
                 }}>Home</MobileLink>
-                <MobileLink href='#skills' onClick={() => {
+
+                <MobileLink to="/components/staff/staff" onClick={() => {
                 setIsOpen(!isOpen)
                 }}>Staff</MobileLink>
-                <MobileLink href='#experience' onClick={() => {
+
+                <MobileLink to="/components/courses/courses"onClick={() => {
                 setIsOpen(!isOpen)
                 }}>Courses</MobileLink>
-                <MobileLink href='#experience' onClick={() => {
+
+                <MobileLink to="/components/cpstars/cpstars" onClick={() => {
                 setIsOpen(!isOpen)
                 }}>CP Stars</MobileLink>
-                <MobileLink href='#projects' onClick={() => {
+                
+                <MobileLink to="/components/updates/updates" onClick={() => {
                 setIsOpen(!isOpen)
                 }}>Updates</MobileLink>
-                <MobileLink href='#education' onClick={() => {
+
+                <MobileLink  to="/components/contact/contact" onClick={() => {
                 setIsOpen(!isOpen)
                 }}>Contact Us</MobileLink>
             </MobileMenu>

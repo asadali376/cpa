@@ -298,38 +298,424 @@ export const Bio = {
       
     },
     
-
+    
   ];
   
-//   export const education = [
-//     {
-//       id: 3,
-//       img: require('../images/pucit.jpg'),
-//       school: "FCIT (PUCIT), University of the Punjab, Lahore, Pakistan",
-//       date: "December 2021 - December 2025 (Continue....)",
-//       grade: "3.6 CGPA",
-//       desc: "I am currently pursuing a Bachelor's degree in Computer Science.I have completed 4 semesters and have a CGPA of 3.6. I have taken courses in Programming Fundamentals, Data Structures, Computer Organization and Assembly Language, Design and Analysis of Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Digital Logic Design, Theory of Autometa, Computer Vision and Compiler Construction. I also experienced CRship (Class Representative) for two semesters and worked as TA (Teacher Assistant).",
-//       degree: "BSCS - Bachelors of Science in Computer Science",
-//     },
-//     {
-//       id: 2,
-//       img: require('../images/ghss.png'),
-//       school: "Govt. Higher Secondary School, Kassowal, Pakistan",
-//       date: "April 2019 - July 2021",
-//       grade: "99.27%",
-//       desc: "Major Subjects were Mathematics, Chemistry, Physics.",
-//       degree: "Intermediate, FSc (Pre-Engineering)",
-//     },
-//     {
-//       id: 1,
-//       img: require('../images/grnhs2.png'),
-//       school: "Govt. Rai Naiz High School, ChichaWatni, Pakistan",
-//       date: "April 2017 - April 2019",
-//       grade: "97.09%",
-//       desc: "I completed my matriculation education at Govt. Rai Niaz High School, ChichaWatni. Majors were Computer Science, Physics, Chemistry, Mathematics.",
-//       degree: "Matric, Science with Computer",
-//     },
-//   ];
+  export const cpstars = [
+
+
+//-------------------------------------------------------------------year divider------------------------------
+    {
+      year: "2023",
+      
+      sections: [
+        //---------- section divideer------------
+        {
+          sec_name: "Second Year" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "First Year" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "10th" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "9th" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+
+      ],
+    },
+
+
+//-------------------------------------------------------------------year divider------------------------------
+    {
+      year: "2022",
+      
+      sections: [
+        //---------- section divideer------------
+        {
+          sec_name: "Second Year" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "First Year" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "10th" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "9th" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+
+      ],
+    },
+
+
+//-------------------------------------------------------------------year divider------------------------------
+    {
+      year: "2021",
+      
+      sections: [
+        //---------- section divideer------------
+        {
+          sec_name: "Second Year" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "First Year" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "10th" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "9th" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+
+      ],
+    },
+
+
+//-------------------------------------------------------------------year divider------------------------------
+    {
+      year: "2020",
+      
+      sections: [
+        //---------- section divideer------------
+        {
+          sec_name: "Second Year" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "First Year" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "10th" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+        //---------- section divideer------------
+        {
+          sec_name: "9th" ,
+          students: [
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+            {
+              img: require('../images/sirumar.jpg'),
+              name: "ASAD ALI" ,
+              marks: "1092",
+            },
+          ]
+        },
+
+      ],
+    },
+
+
+
+
+
+
+
+  ];
   
 //   // ----------************************-----------------------------------------------------------------
 //   export const projects = [

@@ -4,7 +4,7 @@ import { staff } from '../../data/constants';
 import { Container, Wrapper,Title,Desc } from './staffStyle';
 
 const Staff = () => {
-  console.log("zmfncbakjbfj")
+ 
   return (
     <Container id="experience">
             <Wrapper>
@@ -21,7 +21,7 @@ const Staff = () => {
                             //         {index !== staff.length - 1 && <TimelineConnector style={{ background: '#8EE4AF' }} />}
                             //     </TimelineSeparator>
                             //     <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <StaffCard staf={staf}/>
+                                    <StaffCard key={index} staf={staf}/>
                 //                 </TimelineContent>
                 //             </TimelineItem>
                         )

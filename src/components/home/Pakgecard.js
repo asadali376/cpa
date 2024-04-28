@@ -115,9 +115,10 @@ const Pakgecard = ({pakage}) => {
         {/* <hr style={{border: "1px solid #251554", padding: "0 15px", margin:"0 50px 10px 50px",}}/> */}
         <Subtitle style={{color: "#251554", fontSize:"1em", margin:"10px 0"}} > Top features</Subtitle>
         <hr style={{border: "1px solid #251554", padding: "0 15px", margin:"0 50px 10px 50px",}}/>
-           <div className="listfe"><Ul> { pakage.features.map((fe)=>(
-                <List>{fe}</List>
-            )) }</Ul> 
+           <div className="listfe">
+            <Ul>
+                 { pakage.features.map((fe,index)=>(<List>{fe}</List>)) }
+            </Ul> 
             </div>
 	</Card>
    

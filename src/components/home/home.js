@@ -53,16 +53,17 @@ const Home = () => {
     return () => clearInterval(intervalId2);
   }, [imageCount2]);
 
-  const nextSlide2 = () => {
+  // const nextSlide2 = () => {
    
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageCount2);
-  };
+  //   setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageCount2);
+  // };
 
-  const prevSlide2 = () => {
-    setCurrentImageIndex(
-      (prevIndex) => (prevIndex - 1 + imageCount) % imageCount2
-    );
-  };
+  // const prevSlide2 = () => {
+  //   setCurrentImageIndex(
+  //     (prevIndex) => (prevIndex - 1 + imageCount) % imageCount2
+  //   );
+  // };
+
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const imageCount = highlights.length;
 

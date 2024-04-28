@@ -238,7 +238,7 @@ const StaffCard = ({ staf }) => {
                                 <b>Degrees:</b>
                                 <ItemWrapper>
                                     {staf?.degrees?.map((deg, index) => (
-                                        <Degree>{deg}</Degree>
+                                        <Degree key={index}>{deg}</Degree>
                                     ))}
                                 </ItemWrapper>
                             </Degrees>

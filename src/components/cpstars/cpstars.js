@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { cpstars } from '../../data/constants'
+import Staff from '../staff/staff';
 
 
 const Outcontainer = styled.div`
@@ -64,9 +65,9 @@ const Cpstars = () => {
 
     <>
     
-    
+      <Staff/>
       {cpstars.map((yearData, yearIndex) => (
-        <div className={((yearIndex + 1) % 2 !== 0)? "primary_background":"secondary_background"} >
+        <div key={yearIndex} className={((yearIndex + 1) % 2 !== 0)? "primary_background":"secondary_background"} >
           <Outcontainer>
         <React.Fragment key={yearIndex}>
           <Year>{yearData.year}</Year>

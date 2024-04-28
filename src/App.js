@@ -6,9 +6,6 @@ import { useState } from "react";
 import styled from "styled-components";
 import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
-import Staff from "./components/staff/staff";
-import Courses from "./components/courses/courses";
-import Updates from "./components/updates/updates";
 import Contact from "./components/contact/contact";
 import Cpstars from "./components/cpstars/cpstars";
 import Footer from "./components/footer/footer";
@@ -51,10 +48,7 @@ function App() {
           <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/components/home/home" exact element={<Home />} />
-          <Route path="/components/staff/staff" exact element={<Staff />} />
           <Route path="/components/cpstars/cpstars" exact element={<Cpstars/>} />
-          <Route path="/components/courses/courses" exact element={<Courses />} />
-          <Route path="/components/updates/updates" exact element={<Updates />} />
           <Route path="/components/contact/contact" exact element={<Contact />} />
           </Routes>
         </Body>

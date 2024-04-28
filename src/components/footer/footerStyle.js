@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link} from 'react-router-dom';
 export const FooterContainer = styled.div`
   width: 100%;
-  padding: 2rem 0;
+  padding: 5px 0;
   display: flex;
   justify-content: center;
   background: ${({ theme }) => theme.primary};
@@ -15,7 +15,7 @@ export const FooterWrapper = styled.footer`
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 4px;
   align-items: center;
   padding: 1rem;
   color: ${({ theme }) => theme.white};
@@ -59,7 +59,7 @@ color: ${({ theme }) => theme.text_primary};
 
 export const SocialMediaIcons = styled.div`
   display: flex;
-  margin-top: 1rem;
+  // margin-top: 1rem;
 `;
 
 export const SocialMediaIcon = styled.a`
@@ -74,9 +74,12 @@ export const SocialMediaIcon = styled.a`
 `;
 
 export const Copyright = styled.p`
-  margin-top: 1.5rem;
+  // margin-top: 1.5rem;
   font-size: 0.9rem;
   color: ${({ theme }) => theme.soft2};
   text-align: center;
+`;
+export const Span = styled(Link)`
+
 `;
 

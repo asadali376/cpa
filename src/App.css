@@ -64,3 +64,13 @@ body{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 
   }
+
+  .listfe {
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    flex-direction: column;
+    /* background-color: aqua; */
+
+    /* list-style-type: symbols(+); */
+  }

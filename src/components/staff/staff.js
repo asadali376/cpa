@@ -4,6 +4,7 @@ import { staff } from '../../data/constants';
 import { Container, Wrapper,Title,Desc } from './staffStyle';
 
 const Staff = () => {
+  console.log("zmfncbakjbfj")
   return (
     <Container id="experience">
             <Wrapper>

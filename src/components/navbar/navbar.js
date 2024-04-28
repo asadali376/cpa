@@ -216,10 +216,7 @@ const Navbar = () => {
             </MobileIcon>
             <NavItems>
             <NavLink to="/components/home/home">Home</NavLink>
-            <NavLink to="/components/staff/staff">Staff</NavLink>
-            <NavLink to="/components/courses/courses">Courses</NavLink>
             <NavLink to="/components/cpstars/cpstars">CP Stars</NavLink>
-            <NavLink to="/components/updates/updates">Updates</NavLink>
             <NavLink to="/components/contact/contact">Contcat Us</NavLink>
             </NavItems>
             {
@@ -229,21 +226,9 @@ const Navbar = () => {
                 setIsOpen(!isOpen)
                 }}>Home</MobileLink>
 
-                <MobileLink to="/components/staff/staff" onClick={() => {
-                setIsOpen(!isOpen)
-                }}>Staff</MobileLink>
-
-                <MobileLink to="/components/courses/courses"onClick={() => {
-                setIsOpen(!isOpen)
-                }}>Courses</MobileLink>
-
                 <MobileLink to="/components/cpstars/cpstars" onClick={() => {
                 setIsOpen(!isOpen)
                 }}>CP Stars</MobileLink>
-                
-                <MobileLink to="/components/updates/updates" onClick={() => {
-                setIsOpen(!isOpen)
-                }}>Updates</MobileLink>
 
                 <MobileLink  to="/components/contact/contact" onClick={() => {
                 setIsOpen(!isOpen)

@@ -15,13 +15,10 @@ export const Bio = {
       "CPA has earned its name for being the frontrunner in exam preparation in the city. Our immensely experienced, highly qualified faculty ensures clarity of concepts and motivates our students to aim for nothing short of excellence. Our students have consistently been attaining top positions in board exams, and securing more seats in the nation’s most renowned professional colleges and universities than all other preparatory institutes combined.",
     descriptionStars:
       "Stars Academy Lahore (Stars Educational Network) is a very renowned institution in Pakistan. It is affiliated with Board of Intermediate & secondary Education and provides opportunities to students to come and grow as professionals. It provides coaching to Entry Test Preparation classes (MDCAT, FUNG, FMDC, NUMS, AGHA KHAN, ECAT, NUST, FAST, GIKI, LUMS, NTS) for medical colleges and engineering colleges. It has turned dreams of so many students into reality as they are now studying in engineering universities, medical colleges and universities.",
-    github: "https://github.com/asadali376",
-    resume:
-      "https://drive.google.com/file/d/1o0rKikR-CZHjdJaxRp_W5d5ozCkpy0gX/view?usp=drive_link",
-    linkedin: "https://www.linkedin.com/in/asad376/",
-    whatsapp: "https://wa.me/+923260065376",
+    
+    whatsapp: "https://wa.me/+923457446110",
     insta: "https://www.instagram.com/asad__376/",
-    facebook: "https://www.facebook.com/376Asad",
+    facebook: "https://www.facebook.com/CPacademyccw/",
   };
   
 //   export const skills = [
@@ -167,7 +164,7 @@ export const Bio = {
     {
       id: 0,
       img: require('../images/sirumar.jpg'),
-      name: "Prof. Umar Farooq",
+      name: "Ali",
       subject: "Chemistry",
       experience: "10 years",
       institue: "GHSS, Kassowal.",
@@ -298,6 +295,119 @@ export const Bio = {
       
     },
     
+    
+  ];
+  export const topslider= [
+    require('../images/cpfront2.jpg'),
+    require('../images/cp2.jpg'),
+    require('../images/cp3.jpg'),
+    require('../images/cp4.jpg'),
+    require('../images/cp5.jpg'),
+    require('../images/cp6.jpg'),
+    require('../images/cp8.jpg'),
+  ];
+  export const highlights= [
+    {
+      id: 0,
+      img: require('../images/s1.PNG'),
+      imgnew: require('../images/s11.PNG'),
+      name: "Seprate Campuses",
+      desc: "Here we have seprate boys and girls campuses where we assure total check and balance and provide full security to our students.",
+      
+    },
+    {
+      id: 1,
+      img: require('../images/s2.PNG'),
+      imgnew: require('../images/s22.PNG'),
+      name: "Well furnished rooms",
+      desc: "Well furnished room having chairs, desk and tables with broad white board and multimedia to observe video lectures",
+      
+      
+    },
+    // {
+    //   id: 2,
+    //   img: require('../images/cplogo.jpg'),
+    //   name: "Chemistry Lab",
+    //   desc: "Lab with all tools and chemicals is available for live practice.",
+      
+      
+    // },
+    
+  ];
+
+ 
+
+  export const programs= [
+    {
+      id: 0,
+      img:  require('../images/moon.png'),
+      name: "Evening Classes",
+      desc: " We provide evening coaching classes From 02:00 - 06:00 PM, Monday to Saturday.",
+      
+    },
+    {
+      id: 1,
+      img: require('../images/book.png'),
+      name: "Weekly Tests",
+      desc: "Test on every Monady to check weekly learning",
+      
+    },
+    {
+      id: 2,
+      img: require('../images/repeat.png'),
+      name: "Revision Tests",
+      desc: "After completing sylabus a test series to revise book",
+      
+    },
+    {
+      id: 3,
+      img: require('../images/chemistry.png'),
+      name: "Lab Pracrticals",
+      desc: "All practicals are taught and practiced in Lab.",
+      
+    },
+    
+    
+    
+    
+  ];
+  export const pakages= [
+    {
+      id: 0,
+      name: "Customized",
+      desc: "According to your own choice under AC",
+      price: "1500",
+      features: [
+        "Proper Lec",
+        " All notes",
+        " AC rooms",
+        "Customised Timings",
+      ]
+      
+    },
+    {
+      id: 1,
+      name: "Standard",
+      desc: "Slot choice is according to us but under AC",
+      price: "1200",
+      features: [
+        "Proper Lec",
+        " All notes",
+        " AC rooms",
+      ]
+      
+    },
+    {
+      id: 2,
+      name: "Economy",
+      desc: "All lectures are without AC rooms economical",
+      price: "800",
+      features: [
+        "Proper Lec",
+        " All notes",
+      ]
+      
+    },
     
   ];
   

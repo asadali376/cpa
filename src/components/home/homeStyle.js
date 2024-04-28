@@ -115,8 +115,17 @@ export const TitleName = styled.span`
     text-align: center;
   }
 
+  @media (max-width: 768px) {
+    font-size: 30px;
+ 
+  }
   @media (max-width: 640px) {
-    font-size: 35px;
+  
+    line-height: 48px;
+    margin-bottom: 8px;
+  }
+  @media (max-width: 425px) {
+    font-size: 30px;
     line-height: 48px;
     margin-bottom: 8px;
   }
@@ -163,10 +172,159 @@ export const SubTitle = styled.div`
   }
 
   @media (max-width: 640px) {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 32px;
   }
 `;
+
+
+// homestyle.js
+
+
+export const SliderContainer = styled.div`
+  display: flex;
+  margin: 100px 0 50px 0;
+  padding: 0 10px;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  @media (max-width: 640px) {
+    padding: 0 7px;
+    gap: 5px;
+   
+  }
+
+  @media (max-width: 425px) {
+    font-size: 6px;
+    gap: 4px;
+    margin: 50px 0 30px 0;
+    
+  }
+`;
+export const InnerSliderContainer = styled.div`
+  display: flex;
+  margin: 0 40px;
+  // max-width: 1100px;
+  gap:10px;
+  // border-bottom: 1px solid ${({theme})=>theme.primary};
+  // border-left: 1px solid ${({theme})=>theme.primary};
+  position:relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+    @media (max-width: 425px) {
+   flex-direction: column;
+  }
+
+`;
+
+export const SliderButton = styled.button`
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+`;
+
+export const SliderImage2 = styled.img`
+  width: 100%;
+  height: auto;
+  @media (max-width: 1440px) {
+    width: 1440px;
+    height: 576px; //5:2
+  }
+  @media (max-width: 768px) {
+  width: 768px;
+    height: 307px;
+  }
+  @media (max-width: 1024px) {
+    width: 1024px;
+    height: 409px; 
+  }
+  @media (max-width: 425px) {
+    width: 425px;
+    height: 170px; //2:3
+  }
+  @media (max-width: 375px) {
+    width: 375px;
+    height: 150px;
+  }
+  @media (max-width: 320px) {
+    width: 320px;
+    height: 128px;
+  }
+`;
+export const SliderImage = styled.img`
+  max-width: 100%;
+  height: auto;
+  @media (max-width: 1440px) {
+    width: 1200px;
+    height: 480px; //5:2
+  }
+  @media (max-width: 768px) {
+    width: 700px;
+    height: 280px;
+  }
+  @media (max-width: 1024px) {
+    width: 900px;
+    height: 360px; 
+  }
+  @media (max-width: 425px) {
+    width: 400px;
+    height: 600px; //2:3
+  }
+  @media (max-width: 375px) {
+    width: 350px;
+    height: 525px;
+  }
+  @media (max-width: 320px) {
+    width: 280px;
+    height: 420px;
+  }
+`;
+
+// Add more styles as needed
+
+export const CardContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    // margin:150px 0 50px 0;
+    flex-wrap: wrap;
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    // grid-gap: 32px;
+    // grid-auto-rows: minmax(100px, auto);
+    // @media (max-width: 960px) {
+    //     grid-template-columns: repeat(2, 1fr);
+    // }
+    // @media (max-width: 640px) {
+    //     grid-template-columns: repeat(1, 1fr);
+    // }
+`;
+
+export const Sectiontitle = styled.div`
+  font-size: 40px;
+  font-weight: 900px;
+  text-align: center;
+  margin-bottom: 20px;
+  color:  ${({ theme }) => theme.primary};
+
+`;
+export const SecContainer = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 28px;
+// margin:150px 0 50px 0;
+padding: 150px 0;
+
+`;
+
 
 
 

@@ -201,7 +201,7 @@ const Home = () => {
       </WrapperClip>
       <Wrapper>
                     <SecContainer>
-          <Sectiontitle> Programs we offer for your Preprations</Sectiontitle>
+          <Sectiontitle>Programs we offer for you</Sectiontitle>
 
       <CardContainer>
       {programs.map((program) => (

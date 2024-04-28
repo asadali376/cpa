@@ -66,6 +66,9 @@ export const HeroRightContainer = styled.div`
     margin-bottom: 80px;
   }
 
+  @media (max-width: 960px) {
+    display: none;
+  }
   @media (max-width: 640px) {
     margin-bottom: 30px;
   }
@@ -245,15 +248,15 @@ export const SliderImage2 = styled.img`
   }
   @media (max-width: 425px) {
     width: 425px;
-    height: 170px; //2:3
+    height: 225px; 
   }
   @media (max-width: 375px) {
     width: 375px;
-    height: 150px;
+    height: 200px;
   }
   @media (max-width: 320px) {
     width: 320px;
-    height: 128px;
+    height: 180px;
   }
 `;
 export const SliderImage = styled.img`

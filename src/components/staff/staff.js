@@ -8,7 +8,7 @@ const Staff = () => {
   return (
     <Container id="experience">
             <Wrapper>
-                <Title>Experience</Title>
+                <Title>Star Maker</Title>
                 <Desc>
                 "I am not a teacher, but an awakener" Robert Frost
                 </Desc>

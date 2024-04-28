@@ -57,6 +57,18 @@ const StudentMarks = styled.div`
   margin-top: 5px;
 `;
 
+export const Title = styled.div`
+font-size: 42px;
+text-align: center;
+font-weight: 600;
+margin-top: 20px;
+  color: ${({ theme }) => theme.primary};
+  @media (max-width: 768px) {
+      margin-top: 12px;
+      font-size: 32px;
+  }
+`;
+
 
 
 const Cpstars = () => {
@@ -66,6 +78,7 @@ const Cpstars = () => {
     <>
     
       <Staff/>
+      <Title>CP Stars</Title>
       {cpstars.map((yearData, yearIndex) => (
         <div key={yearIndex} className={((yearIndex + 1) % 2 !== 0)? "primary_background":"secondary_background"} >
           <Outcontainer>
